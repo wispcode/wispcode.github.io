@@ -1,0 +1,4 @@
+import{_ as a,p as d,d as s,c as e,h as l}from"./chunks/framework.DpAkmtZC.js";const h=JSON.parse('{"title":"Visually Hidden","description":"","frontmatter":{},"headers":[],"relativePath":"pages/utilities/visually-hidden.md","filePath":"pages/utilities/visually-hidden.md"}'),t={name:"pages/utilities/visually-hidden.md"};function n(r,i,u,c,o,p){return d(),s("div",null,[...i[0]||(i[0]=[e("h1",{id:"visually-hidden",tabindex:"-1"},[l("Visually Hidden "),e("a",{class:"header-anchor",href:"#visually-hidden","aria-label":'Permalink to "Visually Hidden"'},"​")],-1),e("p",null,"Makes elements hidden but accessible to screen readers.",-1),e("pre",null,[e("code",null,`<div class="u-visually-hidden">
+	Hidden	 
+</div>
+`)],-1),e("div",{class:"u-vite-preview"},[e("div",{class:"u-visually-hidden"}," Hidden ")],-1)])])}const m=a(t,[["render",n]]);export{h as __pageData,m as default};
