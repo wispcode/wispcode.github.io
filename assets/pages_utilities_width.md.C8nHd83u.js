@@ -1,0 +1,7 @@
+import{_ as p,p as i,d as e,g as u}from"./chunks/framework.D9X38fHW.js";const r=JSON.parse('{"title":"Width","description":"","frontmatter":{},"headers":[],"relativePath":"pages/utilities/width.md","filePath":"pages/utilities/width.md"}'),l={name:"pages/utilities/width.md"};function s(n,t,a,o,d,c){return i(),e("div",null,[...t[0]||(t[0]=[u(`<h1 id="width" tabindex="-1">Width <a class="header-anchor" href="#width" aria-label="Permalink to &quot;Width&quot;">​</a></h1><p>Applies a width to an element.</p><pre><code>&lt;p&gt;&lt;input class=&quot;c-input u-width-xs&quot; type=&quot;text&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;input class=&quot;c-input u-width-sm&quot; type=&quot;text&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;input class=&quot;c-input u-width-md&quot; type=&quot;text&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;input class=&quot;c-input u-width-lg&quot; type=&quot;text&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;input class=&quot;c-input u-width-xl&quot; type=&quot;text&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;input class=&quot;c-input u-width-full&quot; type=&quot;text&quot;&gt;&lt;/p&gt;
+</code></pre><div class="u-vite-preview"><p><input class="c-input u-width-xs" type="text"></p><p><input class="c-input u-width-sm" type="text"></p><p><input class="c-input u-width-md" type="text"></p><p><input class="c-input u-width-lg" type="text"></p><p><input class="c-input u-width-xl" type="text"></p><p><input class="c-input u-width-full" type="text"></p></div>`,4)])])}const q=p(l,[["render",s]]);export{r as __pageData,q as default};

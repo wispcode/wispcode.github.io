@@ -1,0 +1,4 @@
+import{_ as e,p as a,d as s,g as r}from"./chunks/framework.D9X38fHW.js";const _=JSON.parse('{"title":"Text","description":"","frontmatter":{},"headers":[],"relativePath":"pages/utilities/text.md","filePath":"pages/utilities/text.md"}'),n={name:"pages/utilities/text.md"};function p(l,t,i,o,c,d){return a(),s("div",null,[...t[0]||(t[0]=[r(`<h1 id="text" tabindex="-1">Text <a class="header-anchor" href="#text" aria-label="Permalink to &quot;Text&quot;">​</a></h1><p>Sets the text alignment.</p><pre><code>&lt;p class=&quot;u-text-start&quot;&gt;Start&lt;/p&gt;
+&lt;p class=&quot;u-text-center&quot;&gt;Center&lt;/p&gt;
+&lt;p class=&quot;u-text-end&quot;&gt;End&lt;/p&gt;
+</code></pre><div class="u-vite-preview"><p class="u-text-start">Start</p><p class="u-text-center">Center</p><p class="u-text-end">End</p></div>`,4)])])}const x=e(n,[["render",p]]);export{_ as __pageData,x as default};
