@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8" />
-        <title>Home</title>
+        <title>Table</title>
         <link rel="stylesheet" href="/public/styles/bundle.min.css">
         <link rel="stylesheet" href="/public/styles/custom.full.css">
 
@@ -86,53 +86,194 @@
                 <main class="c-doc-layout__main">
                     <button id="js-menu-toggle" class="c-button u-margin-block-end-md u-visible-below-md"> Toggle Menu </button>
                     <div class="position:relative">
-                        <div class="c-box c-box--spacing-lg c-box--round c-box--border u-color-neutral u-margin-block-end-md">
-    <div class="o-media o-media--reverse o-media--align-center o-media--responsive">
-        <div class="o-media__image u-hidden-sm"><img src="/public/images/wisp-logo-xl.jpg" alt="Logo"></div>
-        <div class="o-media__content">
-            <h1 class="u-type-5xl">Wisp CSS</h1>
-            <p class="u-type-lead">A spirited modular framework that won't haunt your websites!</p>
-            <p>
-                <a class="c-button b-press-elevate b-press-scale" href="https://github.com/wispcode/wisp-css/releases/latest">
-                    Download Latest
-                </a>
-            </p>
-        </div>
-    </div>
+                        <h1>Table</h1>
+<p>Applies styles to make a table for displaying data.</p>
+<pre><code>&lt;table class=&quot;c-table&quot;&gt;
+	&lt;thead&gt;
+		&lt;tr&gt;
+			&lt;th&gt;Header 1&lt;/th&gt;
+			&lt;th&gt;Header 2&lt;/th&gt;
+			&lt;th&gt;Header 3&lt;/th&gt;
+		&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;td&gt;Data 1&lt;/td&gt;
+			&lt;td&gt;Data 2&lt;/td&gt;
+			&lt;td&gt;Data 3&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;Data 1&lt;/td&gt;
+			&lt;td&gt;Data 2&lt;/td&gt;
+			&lt;td&gt;Data 3&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+</code></pre>
+<div class="c-doc-preview">
+	<table class="c-table">
+		<thead>
+			<tr>
+				<th>Header 1</th>
+				<th>Header 2</th>
+				<th>Header 3</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Data 1</td>
+				<td>Data 2</td>
+				<td>Data 3</td>
+			</tr>
+			<tr>
+				<td>Data 1</td>
+				<td>Data 2</td>
+				<td>Data 3</td>
+			</tr>
+		</tbody>
+	</table>
 </div>
-<div class="o-grid o-grid--cols-2-md">
-    <div class="c-box c-box--feature c-box--spacing-lg c-box--round c-box--border u-margin-block-end-md">
-        <div class="o-cluster o-cluster--align-center"><img src="/public/images/feature-modular.png" alt="Modular">
-            <div>
-                <p class="u-type-xl"> Modular </p>
-                <p> Include a single module or everything. </p>
-            </div>
-        </div>
-    </div>
-    <div class="c-box c-box--spacing-lg c-box--round c-box--border u-margin-block-end-md">
-        <div class="o-cluster o-cluster--align-center"><img src="/public/images/feature-extendable.png" alt="Extendable">
-            <div>
-                <p class="u-type-xl"> Extendable </p>
-                <p> Extend using cascade layers. </p>
-            </div>
-        </div>
-    </div>
-    <div class="c-box c-box--spacing-lg c-box--round c-box--border u-margin-block-end-md">
-        <div class="o-cluster o-cluster--align-center"><img src="/public/images/feature-behaviors.png" alt="Extendable">
-            <div>
-                <p class="u-type-xl"> Behavioral </p>
-                <p>Interactions are reusable patterns too!</p>
-            </div>
-        </div>
-    </div>
-    <div class="c-box c-box--spacing-lg c-box--round c-box--border u-margin-block-end-md">
-        <div class="o-cluster o-cluster--align-center"><img src="/public/images/feature-pure.png" alt="Pure">
-            <div>
-                <p class="u-type-xl"> Pure </p>
-                <p> No preprocessors. Pure CSS</p>
-            </div>
-        </div>
-    </div>
+<h2>Modifiers ​</h2>
+<h3>Border Cells ​</h3>
+<p>Applies a thin border around table cells.</p>
+<pre><code>&lt;table class=&quot;c-table c-table--border-cells&quot;&gt;
+	&lt;thead&gt;
+		&lt;tr&gt;
+			&lt;th&gt;Header 1&lt;/th&gt;
+			&lt;th&gt;Header 2&lt;/th&gt;
+			&lt;th&gt;Header 3&lt;/th&gt;
+		&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;td&gt;Data 1&lt;/td&gt;
+			&lt;td&gt;Data 2&lt;/td&gt;
+			&lt;td&gt;Data 3&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;Data 1&lt;/td&gt;
+			&lt;td&gt;Data 2&lt;/td&gt;
+			&lt;td&gt;Data 3&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+</code></pre>
+<div class="c-doc-preview">
+	<table class="c-table c-table--border-cells">
+		<thead>
+			<tr>
+				<th>Header 1</th>
+				<th>Header 2</th>
+				<th>Header 3</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Data 1</td>
+				<td>Data 2</td>
+				<td>Data 3</td>
+			</tr>
+			<tr>
+				<td>Data 1</td>
+				<td>Data 2</td>
+				<td>Data 3</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+<h3>Border rows</h3>
+<p>Applies a thin border between table rows.</p>
+<pre><code>&lt;table class=&quot;c-table c-table--border-rows&quot;&gt;
+	&lt;thead&gt;
+		&lt;tr&gt;
+			&lt;th&gt;Header 1&lt;/th&gt;
+			&lt;th&gt;Header 2&lt;/th&gt;
+			&lt;th&gt;Header 3&lt;/th&gt;
+		&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;td&gt;Data 1&lt;/td&gt;
+			&lt;td&gt;Data 2&lt;/td&gt;
+			&lt;td&gt;Data 3&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;Data 1&lt;/td&gt;
+			&lt;td&gt;Data 2&lt;/td&gt;
+			&lt;td&gt;Data 3&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+</code></pre>
+<div class="c-doc-preview">
+	<table class="c-table c-table--border-rows">
+		<thead>
+			<tr>
+				<th>Header 1</th>
+				<th>Header 2</th>
+				<th>Header 3</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Data 1</td>
+				<td>Data 2</td>
+				<td>Data 3</td>
+			</tr>
+			<tr>
+				<td>Data 1</td>
+				<td>Data 2</td>
+				<td>Data 3</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+<h3>Stripe</h3>
+<p>Applies an alternative background color for even rows.</p>
+<pre><code>&lt;table class=&quot;c-table c-table--stripe&quot;&gt;
+	&lt;thead&gt;
+		&lt;tr&gt;
+			&lt;th&gt;Header 1&lt;/th&gt;
+			&lt;th&gt;Header 2&lt;/th&gt;
+			&lt;th&gt;Header 3&lt;/th&gt;
+		&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;td&gt;Data 1&lt;/td&gt;
+			&lt;td&gt;Data 2&lt;/td&gt;
+			&lt;td&gt;Data 3&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;Data 1&lt;/td&gt;
+			&lt;td&gt;Data 2&lt;/td&gt;
+			&lt;td&gt;Data 3&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+</code></pre>
+<div class="c-doc-preview">
+	<table class="c-table c-table--stripe">
+		<thead>
+			<tr>
+				<th>Header 1</th>
+				<th>Header 2</th>
+				<th>Header 3</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Data 1</td>
+				<td>Data 2</td>
+				<td>Data 3</td>
+			</tr>
+			<tr>
+				<td>Data 1</td>
+				<td>Data 2</td>
+				<td>Data 3</td>
+			</tr>
+		</tbody>
+	</table>
 </div>
 
                     </div>

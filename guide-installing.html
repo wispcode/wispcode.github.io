@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8" />
-        <title>Home</title>
+        <title>Installing</title>
         <link rel="stylesheet" href="/public/styles/bundle.min.css">
         <link rel="stylesheet" href="/public/styles/custom.full.css">
 
@@ -86,53 +86,29 @@
                 <main class="c-doc-layout__main">
                     <button id="js-menu-toggle" class="c-button u-margin-block-end-md u-visible-below-md"> Toggle Menu </button>
                     <div class="position:relative">
-                        <div class="c-box c-box--spacing-lg c-box--round c-box--border u-color-neutral u-margin-block-end-md">
-    <div class="o-media o-media--reverse o-media--align-center o-media--responsive">
-        <div class="o-media__image u-hidden-sm"><img src="/public/images/wisp-logo-xl.jpg" alt="Logo"></div>
-        <div class="o-media__content">
-            <h1 class="u-type-5xl">Wisp CSS</h1>
-            <p class="u-type-lead">A spirited modular framework that won't haunt your websites!</p>
-            <p>
-                <a class="c-button b-press-elevate b-press-scale" href="https://github.com/wispcode/wisp-css/releases/latest">
-                    Download Latest
-                </a>
-            </p>
-        </div>
-    </div>
+                        <h1>Installing Wisp CSS</h1>
+<p>Wisp can be used as a complete framework, assembled from individual modules, or
+imported into your own build.</p>
+<div class="c-box c-box--border u-margin-block-end-md">
+	<h2 class="u-type-xl">Full Bundle</h2>
+	<p>
+		Include the bundle that contains everything.
+	</p>
+	<pre>&lt;link rel="stylesheet" href="bundle.min.css"&gt;</pre>
 </div>
-<div class="o-grid o-grid--cols-2-md">
-    <div class="c-box c-box--feature c-box--spacing-lg c-box--round c-box--border u-margin-block-end-md">
-        <div class="o-cluster o-cluster--align-center"><img src="/public/images/feature-modular.png" alt="Modular">
-            <div>
-                <p class="u-type-xl"> Modular </p>
-                <p> Include a single module or everything. </p>
-            </div>
-        </div>
-    </div>
-    <div class="c-box c-box--spacing-lg c-box--round c-box--border u-margin-block-end-md">
-        <div class="o-cluster o-cluster--align-center"><img src="/public/images/feature-extendable.png" alt="Extendable">
-            <div>
-                <p class="u-type-xl"> Extendable </p>
-                <p> Extend using cascade layers. </p>
-            </div>
-        </div>
-    </div>
-    <div class="c-box c-box--spacing-lg c-box--round c-box--border u-margin-block-end-md">
-        <div class="o-cluster o-cluster--align-center"><img src="/public/images/feature-behaviors.png" alt="Extendable">
-            <div>
-                <p class="u-type-xl"> Behavioral </p>
-                <p>Interactions are reusable patterns too!</p>
-            </div>
-        </div>
-    </div>
-    <div class="c-box c-box--spacing-lg c-box--round c-box--border u-margin-block-end-md">
-        <div class="o-cluster o-cluster--align-center"><img src="/public/images/feature-pure.png" alt="Pure">
-            <div>
-                <p class="u-type-xl"> Pure </p>
-                <p> No preprocessors. Pure CSS</p>
-            </div>
-        </div>
-    </div>
+<div class="c-box c-box--border">
+	<h2 class="u-type-xl">Individual Modules</h2>
+	<p>
+		Include preflight.css and any modules you wish to use.
+	</p>
+	<pre>&lt;link rel="stylesheet" href="preflight.min.css"&gt;<Br>&lt;link rel="stylesheet" href="o-grid.min.css"&gt;<br>&lt;link rel="stylesheet" href="o-cluster.min.css"&gt;</pre>
+</div>
+<div class="c-box c-box--border">
+	<h2 class="u-type-xl">Custom Build</h2>
+	<p>
+		Import preflight.css and the modules into your project.
+	</p>
+	<pre>@import "preflight.min.css";<br>@import "o-grid.min.css";<br>@import "o-cluster.min.css";</pre>
 </div>
 
                     </div>
